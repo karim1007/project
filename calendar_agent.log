@@ -1,0 +1,127 @@
+2025-04-25 21:44:02,198 - __main__ - INFO - Learning planner agent initialized
+2025-04-25 21:44:02,198 - calendar_1 - INFO - Initializing Google Calendar MCP client
+2025-04-25 21:44:03,789 - calendar_1 - INFO - MCP client connection established
+2025-04-25 21:44:03,798 - calendar_1 - INFO - React agent created successfully
+2025-04-25 21:44:03,798 - whatsapp - INFO - Initializing WhatsApp MCP client
+2025-04-25 21:44:04,897 - whatsapp - INFO - MCP client connection established
+2025-04-25 21:44:04,914 - whatsapp - INFO - React agent created successfully
+2025-04-25 21:44:04,914 - __main__ - INFO - All agents initialized successfully
+2025-04-25 21:46:21,090 - __main__ - INFO - Learning planner agent initialized
+2025-04-25 21:46:21,091 - whatsapp - INFO - Initializing WhatsApp MCP client
+2025-04-25 21:46:22,202 - whatsapp - INFO - MCP client connection established
+2025-04-25 21:46:22,220 - whatsapp - INFO - React agent created successfully
+2025-04-25 21:46:22,224 - calendar_1 - INFO - Initializing Google Calendar MCP client
+2025-04-25 21:46:23,694 - calendar_1 - INFO - MCP client connection established
+2025-04-25 21:46:23,702 - calendar_1 - INFO - React agent created successfully
+2025-04-25 21:46:23,717 - __main__ - INFO - Async agents initialized
+2025-04-25 21:46:23,718 - __main__ - ERROR - Application error: There is no current event loop in thread 'MainThread'.
+Traceback (most recent call last):
+  File "c:\Users\PC\Desktop\project\app.py", line 53, in <module>
+    asyncio.get_event_loop().run_forever()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 656, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+RuntimeError: There is no current event loop in thread 'MainThread'.
+2025-04-25 21:49:56,128 - __main__ - INFO - Learning planner agent initialized
+2025-04-25 21:49:56,129 - whatsapp - INFO - Initializing WhatsApp MCP client
+2025-04-25 21:49:57,196 - whatsapp - INFO - MCP client connection established
+2025-04-25 21:49:57,212 - whatsapp - INFO - React agent created successfully
+2025-04-25 21:49:57,212 - calendar_1 - INFO - Initializing Google Calendar MCP client
+2025-04-25 21:49:58,695 - calendar_1 - INFO - MCP client connection established
+2025-04-25 21:49:58,703 - calendar_1 - INFO - React agent created successfully
+2025-04-25 21:49:58,718 - calendar_1 - ERROR - Error in Google Calendar graph creation: Please specify a name when you create your agent, either via `create_react_agent(..., name=agent_name)` or via `graph.compile(name=name)`.
+Traceback (most recent call last):
+  File "c:\Users\PC\Desktop\project\calendar_1.py", line 62, in create_calendar_graph
+    yield agent
+  File "c:\Users\PC\Desktop\project\app.py", line 38, in setup_supervised_workflow
+    workflow = create_supervisor(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\langgraph_supervisor\supervisor.py", line 177, in create_supervisor
+    raise ValueError(
+ValueError: Please specify a name when you create your agent, either via `create_react_agent(..., name=agent_name)` or via `graph.compile(name=name)`.
+2025-04-25 21:49:58,723 - whatsapp - ERROR - Error in WhatsApp graph creation: Please specify a name when you create your agent, either via `create_react_agent(..., name=agent_name)` or via `graph.compile(name=name)`.
+Traceback (most recent call last):
+  File "c:\Users\PC\Desktop\project\whatsapp.py", line 45, in create_whatsapp_graph
+    yield agent
+  File "c:\Users\PC\Desktop\project\app.py", line 38, in setup_supervised_workflow
+    workflow = create_supervisor(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\langgraph_supervisor\supervisor.py", line 177, in create_supervisor
+    raise ValueError(
+ValueError: Please specify a name when you create your agent, either via `create_react_agent(..., name=agent_name)` or via `graph.compile(name=name)`.
+2025-04-25 21:49:58,724 - __main__ - ERROR - Error setting up supervised workflow: Please specify a name when you create your agent, either via `create_react_agent(..., name=agent_name)` or via `graph.compile(name=name)`.
+Traceback (most recent call last):
+  File "c:\Users\PC\Desktop\project\app.py", line 38, in setup_supervised_workflow
+    workflow = create_supervisor(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\langgraph_supervisor\supervisor.py", line 177, in create_supervisor
+    raise ValueError(
+ValueError: Please specify a name when you create your agent, either via `create_react_agent(..., name=agent_name)` or via `graph.compile(name=name)`.
+2025-04-25 21:49:58,725 - __main__ - ERROR - Application error: Please specify a name when you create your agent, either via `create_react_agent(..., name=agent_name)` or via `graph.compile(name=name)`.
+Traceback (most recent call last):
+  File "c:\Users\PC\Desktop\project\app.py", line 67, in main
+    app = await setup_supervised_workflow()
+  File "c:\Users\PC\Desktop\project\app.py", line 38, in setup_supervised_workflow
+    workflow = create_supervisor(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\langgraph_supervisor\supervisor.py", line 177, in create_supervisor
+    raise ValueError(
+ValueError: Please specify a name when you create your agent, either via `create_react_agent(..., name=agent_name)` or via `graph.compile(name=name)`.
+2025-04-25 21:51:17,524 - __main__ - INFO - Learning planner agent initialized
+2025-04-25 21:51:17,525 - whatsapp - INFO - Initializing WhatsApp MCP client
+2025-04-25 21:51:18,585 - whatsapp - INFO - MCP client connection established
+2025-04-25 21:51:18,601 - whatsapp - INFO - React agent created successfully
+2025-04-25 21:51:18,601 - calendar_1 - INFO - Initializing Google Calendar MCP client
+2025-04-25 21:51:20,301 - calendar_1 - INFO - MCP client connection established
+2025-04-25 21:51:20,311 - calendar_1 - INFO - React agent created successfully
+2025-04-25 21:51:20,327 - __main__ - INFO - Supervisor workflow compiled successfully
+2025-04-25 21:51:20,346 - __main__ - INFO - Supervised workflow initialized
+2025-04-25 21:51:36,129 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-25 21:54:05,568 - __main__ - INFO - Learning planner agent initialized
+2025-04-25 21:54:05,568 - whatsapp - INFO - Initializing WhatsApp MCP client
+2025-04-25 21:54:06,852 - whatsapp - INFO - MCP client connection established
+2025-04-25 21:54:06,870 - whatsapp - INFO - React agent created successfully
+2025-04-25 21:54:06,871 - calendar_1 - INFO - Initializing Google Calendar MCP client
+2025-04-25 21:54:08,456 - calendar_1 - INFO - MCP client connection established
+2025-04-25 21:54:08,465 - calendar_1 - INFO - React agent created successfully
+2025-04-25 21:54:08,481 - __main__ - INFO - Supervisor workflow compiled successfully
+2025-04-25 21:54:08,502 - __main__ - INFO - Supervised workflow initialized
+2025-04-25 21:54:09,910 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-25 22:00:39,545 - __main__ - INFO - Learning planner agent initialized
+2025-04-25 22:00:39,545 - whatsapp - INFO - Initializing WhatsApp MCP client
+2025-04-25 22:00:40,574 - whatsapp - INFO - MCP client connection established
+2025-04-25 22:00:40,590 - whatsapp - INFO - React agent created successfully
+2025-04-25 22:00:40,590 - calendar_1 - INFO - Initializing Google Calendar MCP client
+2025-04-25 22:00:42,047 - calendar_1 - INFO - MCP client connection established
+2025-04-25 22:00:42,056 - calendar_1 - INFO - React agent created successfully
+2025-04-25 22:00:42,071 - __main__ - INFO - Supervisor workflow compiled successfully
+2025-04-25 22:00:42,090 - __main__ - INFO - Supervised workflow initialized
+2025-04-25 22:00:43,198 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-25 22:00:45,022 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-25 22:00:45,260 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-25 22:00:45,261 - openai._base_client - INFO - Retrying request to /chat/completions in 8.000000 seconds
+2025-04-25 22:00:54,954 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-25 22:02:29,965 - __main__ - INFO - Learning planner agent initialized
+2025-04-25 22:02:29,965 - whatsapp - INFO - Initializing WhatsApp MCP client
+2025-04-25 22:02:30,981 - whatsapp - INFO - MCP client connection established
+2025-04-25 22:02:30,997 - whatsapp - INFO - React agent created successfully
+2025-04-25 22:02:30,998 - calendar_1 - INFO - Initializing Google Calendar MCP client
+2025-04-25 22:02:32,469 - calendar_1 - INFO - MCP client connection established
+2025-04-25 22:02:32,478 - calendar_1 - INFO - React agent created successfully
+2025-04-25 22:02:32,495 - __main__ - INFO - Supervisor workflow compiled successfully
+2025-04-25 22:02:32,513 - __main__ - INFO - Supervised workflow initialized
+2025-04-25 22:02:33,132 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-25 22:02:33,730 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-25 22:02:33,731 - openai._base_client - INFO - Retrying request to /chat/completions in 9.000000 seconds
+2025-04-25 22:02:47,671 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-25 22:02:47,974 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-25 22:02:47,974 - openai._base_client - INFO - Retrying request to /chat/completions in 5.000000 seconds
+2025-04-25 22:02:55,255 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-26 15:51:38,541 - __main__ - INFO - Starting Google Calendar MCP agent
+2025-04-26 15:51:38,541 - __main__ - INFO - Initializing Google Calendar MCP client
+2025-04-26 15:51:40,057 - __main__ - INFO - MCP client connection established
+2025-04-26 15:51:40,067 - __main__ - INFO - React agent created successfully
+2025-04-26 15:51:40,067 - __main__ - INFO - Sending test message
+2025-04-26 15:51:53,175 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-26 15:51:57,672 - httpx - INFO - HTTP Request: POST https://api.together.xyz/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-27 17:19:44,102 - __main__ - INFO - Starting Google Calendar MCP agent
+2025-04-27 17:19:44,102 - __main__ - INFO - Initializing Google Calendar MCP client
+2025-04-27 17:19:45,848 - __main__ - INFO - MCP client connection established
+2025-04-27 17:19:45,858 - __main__ - INFO - React agent created successfully
+2025-04-27 17:19:45,859 - __main__ - INFO - Sending test message
+2025-04-27 17:19:46,256 - __main__ - INFO - Application terminated by user

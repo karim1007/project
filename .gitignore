@@ -1,0 +1,25 @@
+# Ignore environment variable files
+.env
+
+# Ignore node_modules (if using Node.js)
+node_modules/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore logs
+*.log
+
+# Ignore IDE/editor settings (VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore macOS and Windows specific files
+*.swp
+*.bak

@@ -1,0 +1,11 @@
+langchain-mcp-adapters
+langgraph
+langgraph-supervisor
+langchain-anthropic
+langchain-core
+langchain-community
+tavily-python
+python-dotenv
+together
+streamlit
+gradio
